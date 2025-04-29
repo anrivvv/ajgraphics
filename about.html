@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/eedbcd0c96.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+        <div class="logo">
+          <a href="#" onclick="window.location.href='home.html';">
+            <img src="HeaderPhoto.png" alt="" class="imglogo" />
+          </a>
+        </div>
+  
+        <div>
+          <ul id="navbar">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+  
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+  
+            <li>
+              <a href="about.html">About</a>
+            </li>
+  
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+  
+            <div class="js-shop-quantity pro-quantity"></div>
+            <li>
+              <i
+                id="shopbag"
+                class="fa-sharp fa-solid fa-cart-shopping js-cart-click"
+              ></i>
+            </li>
+            <a href="#" id="close" onclick="remove()"
+              ><i class="fa-solid fa-xmark"></i
+            ></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <div class="js-shop-quantity pro-quantity"></div>
+          <i class="fa-sharp fa-solid fa-cart-shopping js-cart-click"></i>
+          <i id="bar" class="fas fa-outdent" onclick="show()"></i>
+        </div>
+    </section>
+
+    <section id="pageheader" class="aboutheader">
+      
+    </section>
+
+    <div id="aboutdiv" class="section-p1">
+      <img src="aboutUs.jpg" alt="" />
+      <div>
+        <h2>Who are we ?</h2>
+        <p>
+          At AJ Graphics Printing Services, we help bring your ideas to life with high-quality printing. Whether you need business cards, flyers, posters, or custom items, we make sure every print looks great.
+          Our team is passionate about creating prints that stand out. We use the latest technology to give you clear, vibrant, professional results, quickly and at a fair price.
+          From design to final print, we ensure every project meets the highest standards. Let's make your vision a reality, because when it comes to printing, quality matters.
+        </p>
+
+        <marquee behavior="" direction=""
+          >Print with Quality, Stand Out with Style!
+        </marquee
+        >
+      </div>
+    </div>
+
+    <section id="feature" class="section-p1">
+      <div class="featurebox">
+        <img src="imgs/fs.png" alt="" class="fsimg" />
+        <h5>Order Online</h5>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/oo.png" alt="" class="fsimg" />
+        <h5>Pick-up & Delivery</h5>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/pp.png" alt="" class="fsimg" />
+        <h5>Promotions</h5>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/hs.png" alt="" class="fsimg" />
+        <h5>Customization</h5>
+      </div>
+      <div class="featurebox">
+        <img src="imgs/tss.png" alt="" class="fsimg" />
+        <h5>Support</h5>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="#" alt="" class="footlogo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address : </strong> Cayawan, Malimono, Surigao dN 00372 Vasquez st., Surigao City
+        </p>
+        <p><strong>Phone : </strong>+63 09126669209/09486760479/tel. 086-827-1080</p>
+        <p><strong>Email : </strong>ajgraphics.surigao2023@gmail.com</p>
+
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>Secured payment Gateways</h4>
+        <img src="imgs/ppay.png" alt="" class="footlogo3" />
+        <a href="">Bank</a>
+        <a href="">G Cash</a>
+        <a href="">QR Ph</a>
+        <a href="">MayaPay</a>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright @ 2025 by AJ Graphics</p>
+      </div>
+    </footer>
+
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/products.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
