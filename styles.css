@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-    background-color: linear-gradient(to right, lightgreen, cyan);;
+    background-color: white;
     box-sizing: border-box;
     font-family: "Poppins";
     margin: 0;
@@ -56,7 +56,7 @@
   .button-transparent {
     background-color: transparent;
     border: 2px solid 4EF037;
-    color: whitesmoke ;
+    color: rgb(0, 0, 0) ;
     cursor: pointer;
     font-size: 16px;
     font-weight: 900;
@@ -111,7 +111,7 @@
   
   #navbar li a {
     background: transparent;
-    color: rgb(53, 97, 74);
+    color: black;
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -124,10 +124,10 @@
   }
   
   #navbar li a:hover{
-    background: #09a162;
+    background: #ceffff;
     border-radius: 10%;
     padding: 2px 10px;
-    color: rgb(32, 58, 40);
+    color: black;
   }
   
   #navbar li a:hover,
@@ -149,7 +149,7 @@
   
   #hero {
     align-items: flex-start;
-    background-image: url(green.avif);
+    background-image: url(images/green.avif);
     background-size: cover;
     background-position: top 0 right 0;
     display: flex;
@@ -207,7 +207,7 @@
   }
   
   #feature {
-    background-color: white;
+    background-color: #f5f5f5;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -215,7 +215,7 @@
   }
   
   #feature .featurebox {
-    border: 1px solid #d3d4c3;
+    border: 1px solid #f5f5f5;
     border-radius: 4px;
     box-shadow: 5px 5px 10px rgb(148, 148, 148);
     height: 200px;
@@ -250,22 +250,24 @@
   }
   
   .fsimg {
-    height: 120px;
+    height: 110px;
     width: 120px;
   }
   
   #product1 {
-    background-color: #4b4b4b;
+    background-color: #f5f5f5;
     text-align: center;
   }
   
   #product1 h2 {
-    color: lightgrey;
+    background-color: #f5f5f5;
+    color: rgb(78, 160, 109);
     letter-spacing: 2px;
     word-spacing: 5px;
   }
   
   #product1 p {
+    background-color: #f5f5f5;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-bottom: 2rem;
@@ -273,7 +275,7 @@
   }
   
   #product1 .pro {
-    border: 1px solid #d3d4c3;
+    border: 1px solid #f5f5f5;
     border-radius: 25px;
     box-shadow: 2px 2px 15px rgb(165, 165, 165);
     cursor: pointer;
@@ -340,7 +342,7 @@
   
   #banner {
     align-items: center;
-    background-image: linear-gradient(cyan,lightgreen);
+    background: white;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -352,7 +354,7 @@
   }
   
   #banner h2 {
-    background-color: #f8c0c8;
+    background-color: #ffffff;
     border-radius: 3px;
     color: white;
     font-size: 40px;
@@ -363,7 +365,7 @@
   
   #banner h2 span {
     background-color: transparent;
-    color: red;
+    color: rgb(255, 253, 253);
     font-size: 40px;
   }
   
@@ -374,14 +376,14 @@
   
   #chotu1banner {
     display: flex;
-    background-color: #4b4b4b;
+    background-color: #ffffff;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   
   #chotu1banner .bannerbox {
     align-items: flex-start;
-    background-image: url("imgs/sm1.jpg");
+    background-image: url("images/shirts.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -394,7 +396,7 @@
   }
   
   #chotu1banner .bannerbox:nth-child(2) {
-    background-image: url("imgs/sm2.jpg");
+    background-image: url("images/designing.jpg");
   }
   
   #chotu1banner .bannerbox h4 {
@@ -417,8 +419,8 @@
   }
   
   #chotu1banner .bannerbox:hover button {
-    background: #ff9966;;
-    border: 2px solid #ff9966;;
+    background: #507a57;;
+    border: 2px solid #507a57;;
     color: white;
   }
   
@@ -519,67 +521,7 @@
     white-space: nowrap;
   } */
   
-  footer {
-    background-color: lightgray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
   
-  footer .col {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2.3rem;
-  }
-  
-  footer .col,
-  footer img,
-  footer h4,
-  footer p,
-  footer strong,
-  footer i,
-  footer .icon,
-  footer a,
-  footer .follow,
-  footer .copyright {
-    background-color: transparent;
-  }
-  
-  footer .footlogo {
-    margin-bottom: 30px;
-    width: 150px;
-  }
-  
-  footer h4 {
-    padding-bottom: 10px;
-  }
-  
-  footer p,
-  footer a {
-    color: black;
-    margin: 0 0 8px;
-    text-decoration: none;
-  }
-  
-  footer .footlogo2 {
-    height: 40px;
-    width: 100px;
-  }
-  
-  footer .footlogo3 {
-    width: 250px;
-  }
-  
-  .copyright {
-    text-align: center;
-    width: 100%;
-  }
-  
-  footer i,
-  footer img {
-    cursor: pointer;
-  }
   #mobile {
     display: none;
   }
@@ -753,9 +695,16 @@
   }
   
 /* About us page */
-.aboutheader {
-  background-color: rgb(241, 241, 241);
-  /* background-image: url(""); */
+.aboutheader {  
+  background-image: url("images/aboutUs_HeaderPhoto.png"); 
+   background-size: cover;        
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;                 
+  color: white;                  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #aboutdiv img {
@@ -781,7 +730,7 @@
 }
 
 #aboutdiv div marquee {
-  background-color: #07bb9c;
+  background-color: rgb(145, 184, 148);
   color: white;
 }
 
@@ -1002,7 +951,7 @@
   }
   
   .cart-clear-btn {
-    background-color: #f8c0c8;
+    background-color: #63d676;
     border: none;
     border-radius: 10px;
     box-shadow: 2px 2px 2px gray;
@@ -1165,13 +1114,7 @@
       width: 70%;
     }
   
-    footer .col {
-      width: 20%;
-    }
-  
-    footer .footlogo3 {
-      width: 150px;
-    }
+
   
     #contact-details {
       display: flex;
@@ -1303,13 +1246,7 @@
       width: 65%;
     }
   
-    footer .col {
-      width: 45%;
-    }
-  
-    footer {
-      align-items: center;
-    }
+    
   
     /* Single product */
     #prodetails {
